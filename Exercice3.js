@@ -1,4 +1,6 @@
-  var start = 'Bonjour ', UserName, end = ' !', result;
-    UserName = prompt('Entrez votre prénom :');
-    result = start + UserName + end;
+var start = 'Bonjour ', name, result;
+name = prompt('Quel est votre prénom?'); // boîte de dialogue avec zone de saisie de texte pour récupérer le nom
+if(name){
+  result = start + name;
   alert(result);
+}
